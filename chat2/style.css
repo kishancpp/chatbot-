@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar{
+    height: 90vh;
+    width:  239px;
+    background-color: #16151A;
+    margin-top: 35px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.mainbar{
+    height: 90vh;
+    width:  801px;
+    background-color: #16151A;
+    margin-top: 35px;
+    border-radius: 15px;
+}
+.rightbar{
+    height: 90vh;
+    width:  239px;
+    background-color: #16151A;
+    margin-top: 35px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.sidebar h2{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+    background-color: #4B44AE;
+    margin: 12px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sidebar h2 a{
+    text-decoration: none;
+    color: white;
+}
+.rightbar h2{
+    color: white;
+    text-align: center;
+    font-size: px;
+    /* font-style: medium; */
+    font-weight: 400;
+    font-size: 19px;
+    background-color: #4B44AE;
+    margin: 12px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.rightbar h2 a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar .cases{
+    /* border: 1px solid; */
+    margin-top: 155%;
+}
+.sidebar .cases h3{
+    border: 1px solid #797575;
+    margin: 5px 12px;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    
+}
+.sidebar .viewall a{
+    background: transparent;
+    color: #797575;
+    text-decoration: none;
+    font-size: 13px;
+}
+.sidebar .viewall{
+    text-align: center;
+}
+
+.rightbar .sources a{
+    display: block;
+    margin-left: 12px;
+    padding: 5px 0; 
+    text-decoration: none;
+    color: #797575;
+}
+.mainbar .content{
+    margin: 20px;
+}
+.mainbar h2{
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
+.mainbar  p{
+    color: #797575;
+}
+.mainbar span{
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+}
+.mainbar .chat{
+    width: 95%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #797575;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 51%;
+
+}
+
+.mainbar .chat input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #797575;
+}
+.mainbar .chat input::placeholder{
+    color: white;
+    font-size: 21px;
+    position: absolute;
+    left: 12px;
+    top:12px;
+}
+.mainbar .chat i{
+    color: white;
+    position: absolute;
+}
+
+/* .mainbar .chat input{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+.mainbar .chat{
+    border: 1px solid #797575;
+    width: 92%;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+} */

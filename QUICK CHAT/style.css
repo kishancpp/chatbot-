@@ -1,0 +1,159 @@
+
+ 
+ body{
+    
+  width: 1440px;
+  height: 887px;
+  box-sizing: border-box;
+  background-image:url("./images/Desktop\ -\ 4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+ 
+}
+.container{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar{
+    width: 266px;
+    height: 700px;
+    background-color:#1E1E1E ;
+    color:white;
+    text-align: center;
+    border-radius: 10px;
+   
+    margin:30px 0 30px 30px;
+}
+.sidebar div{
+    margin: 5px;
+}
+.chat-container{
+    width: 987px;
+    height: 700px;
+    background-color:#1E1E1E ;
+    font-family: sans-serif;
+    color:white;
+    border-radius: 10px;
+    margin:30px 0 30px 30px;
+    
+    position: relative;
+   
+}
+ .chat-container .user-chat,h2,p{
+    margin-left:30px ;
+ }
+
+.newChat{
+    width: 90%;
+    height: 30px;
+    justify-content:center;
+    padding-top:10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #4B44AE;
+    margin:10px ;
+   
+  
+}
+.sidebar p{
+    color: #797575;
+    float: left;
+    margin-left: 26px;
+}
+.sidebar div{
+    display: inline-block;
+    height: 23px;
+    width: 85%;
+    border: 1px solid #797575;
+    border-radius: 5px;
+    margin-left:13px ;
+    
+}
+
+.bot-chat{
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #212125;
+  }
+.user-chat{
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    
+}
+.user-chat img{
+    float: left;
+    width: 40px;
+    height:40px ;
+    margin-right: 0;
+    border-radius: 50%;
+}
+
+.bot-chat img{
+    float: left;
+    max-width: 40px;
+    border-radius: 50%;
+    margin-right:0;
+    margin-left: 30px;
+  }
+  form {
+    border-radius: 10px; 
+    border: 1px solid #797575;
+    display:flex;
+    flex-direction:row;
+   position: absolute;
+   margin:0 auto;
+   width: 95%;
+   bottom: 30px;
+   left: 0;
+   right: 0;
+   
+  }
+  
+  input {
+    
+    flex-grow:2;
+    border:none;
+    border-radius: 10px; 
+    background-color: #16151A;
+    color:white;
+    font-size: large;
+  }
+  input:focus {
+    outline: none;
+  }
+  form:focus-within { 
+    outline: 1px solid #797575;
+  }
+  
+  #button {
+    border: none;
+    background:#16151A;
+    color:white;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 50px;
+    
+  }
+  #button img{
+    height:100%;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+  }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 10px;
+  }
+
+

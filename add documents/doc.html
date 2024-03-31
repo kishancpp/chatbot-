@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Documents</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'roboto';
+    }
+    .form{
+        height: 624px;
+        width: 395px;
+        background-color: #16151A;
+        border: 1px solid #828282;
+        border-radius: 23px;
+        margin: ;
+        position: relative;
+
+    }
+    #docName{
+        position: absolute; 
+        width:90%;
+        margin: 20px;
+    }
+    .contact-form form{
+    position: relative;
+}
+.contact-form form input,form textarea{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: transparent;
+    color: rgb(162, 162, 162);
+    border: 2px solid #b1b1b1;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.contact-form textarea{
+    resize: none;
+    height: 220px;
+}
+.contact-form form .send{
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #00BED8;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #012531;
+    font-weight: 600;
+    text-decoration: none;
+    opacity: 0;
+    animation: slideTope 1s ease forwards;
+    animation-delay:.2s;
+    border: none;
+}
+</style>
+
+<body style="background-color: #000923;">
+    <div class="container">
+        <div class="form">
+            <div class="contact-form">
+                <h2>Add Document</h2>
+                <form>
+                    <input type="docName" id="docName" placeholder="Document Name" required>
+                    <label for="cars">Choose a car:</label>
+                    <select id="cases" name="cases" aria-placeholder="Select Case">
+                        <option value="case-1">Case-1</option>
+                        <option value="case-2">Case-2</option>
+                        <option value="case-3">Case-3</option>
+                        <option value="case-4">Case-4</option>
+                    </select>
+                    <textarea name="" id="message" cols="40" rows="10" placeholder="Enter Your Message"
+                        required></textarea>
+                    <input type="legalSite" id="legalSite" placeholder="Legal Side Note" required>
+                    <input type="submit" value="View in Cases and Process" class="send">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

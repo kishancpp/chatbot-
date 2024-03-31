@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto';
+}
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+.sources .content h2{
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+}
+.sources {
+    height: 90vh;
+    width: 70vw;
+    background-color: #16151A;
+    border: 1px solid#828282;
+    border-radius: 23px;
+}
+.sources .content{
+    color: white;
+    margin: 30px;
+}
+.sources .content h3{
+    color: #797575;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.sources .content ul{
+    color: #7AB2FF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    margin-top: 10px;
+}
